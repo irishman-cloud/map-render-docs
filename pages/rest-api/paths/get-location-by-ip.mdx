@@ -1,0 +1,65 @@
+import { Tabs } from 'nextra/components'
+
+# GET - `/v1/`
+
+undefined
+
+## Parameters
+
+| Name | Description | Type | Example |
+| :---- | :---- | :---- | :---- |
+| api_key <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Required</span> |  | string in query | `undefined` |
+| ip_address  |  | string in query | `undefined` |
+| fields  |  | string in query | `undefined` |
+
+## Responses
+
+Blah blah blah.
+
+<Tabs items={["200"]}>
+
+<Tabs.Tab>
+
+Location of geolocated IP
+
+```json
+
+{
+    "city": "",
+    "connection": {
+        "autonomous_system_organization": "",
+        "connection_type": "",
+        "isp_name": "",
+        "organization_name": ""
+    },
+    "continent": "",
+    "continent_code": "",
+    "country": "",
+    "country_code": "",
+    "currency": {
+        "currency_code": "",
+        "currency_name": ""
+    },
+    "flag": {
+        "emoji": "",
+        "png": "",
+        "svg": "",
+        "unicode": ""
+    },
+    "ip_address": "",
+    "postal_code": "",
+    "region": "",
+    "region_iso_code": "",
+    "security": {},
+    "timezone": {
+        "abbreviation": "",
+        "current_time": "",
+        "name": ""
+    }
+}
+
+```
+
+</Tabs.Tab>
+
+</Tabs>

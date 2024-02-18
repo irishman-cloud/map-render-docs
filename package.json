@@ -1,0 +1,26 @@
+{
+    "name": "map-render",
+    "version": "0.0.1",
+    "description": "Take a photo of the world.",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next build && next export"
+    },
+    "dependencies": {
+        "next": "^13.0.6",
+        "nextra": "latest",
+        "nextra-theme-docs": "latest",
+        "react": "^18.2.0",
+        "@tremor/react": "^3.12.1",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.11.10",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^4.9.3"
+    }
+}
